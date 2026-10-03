@@ -1,0 +1,7 @@
+build/
+.lock-waf*
+.waf-*
+node_modules/
+*.md
+*.org
+artifacts/

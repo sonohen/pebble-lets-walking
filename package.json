@@ -1,0 +1,69 @@
+{
+  "name": "letswalking",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Lets Walking",
+  "pebble": {
+    "displayName": "Lets Walking",
+    "uuid": "73741f8f-c741-4fea-b218-cece125095a7",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "capabilities": [
+      "health"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "ICON_PLAY",
+          "file": "images/play.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_PAUSE",
+          "file": "images/pause.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_STOP",
+          "file": "images/stop.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_EDIT",
+          "file": "images/edit.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_CHECK",
+          "file": "images/check.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_PLUS",
+          "file": "images/plus.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_MINUS",
+          "file": "images/minus.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_NEW",
+          "file": "images/new.png"
+        }
+      ]
+    }
+  }
+}
