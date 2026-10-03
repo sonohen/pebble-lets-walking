@@ -1,7 +1,7 @@
 """Independent UI fixture: only initial goal differs; production files unchanged."""
 from pathlib import Path
 import json, shutil, subprocess, time, tempfile, hashlib
-CLI = "/Users/yusuke/.local/bin/pebble"
+CLI = "~/.local/bin/pebble"
 root = Path.cwd()
 fixture = Path(tempfile.mkdtemp(prefix="letswalking-ui-fixture-"))
 for name in ["src", "resources"]: shutil.copytree(root/name, fixture/name)

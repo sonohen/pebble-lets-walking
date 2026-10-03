@@ -1,7 +1,7 @@
 """Capture current app UI on five Pebble form factors; runs SDK outside sandbox."""
 from pathlib import Path
 import subprocess, time
-CLI = "/Users/yusuke/.local/bin/pebble"
+CLI = "~/.local/bin/pebble"
 out = Path("artifacts/screenshots/v3")
 out.mkdir(parents=True, exist_ok=True)
 def run(*args):

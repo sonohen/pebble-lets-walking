@@ -1,7 +1,7 @@
 """Real button push/release verification without modified app source."""
 from pathlib import Path
 import subprocess, time, hashlib, json
-CLI = "/Users/yusuke/.local/bin/pebble"
+CLI = "~/.local/bin/pebble"
 platform = "diorite"
 out = Path("artifacts/screenshots/hold-"+time.strftime("%Y%m%d-%H%M%S"))
 out.mkdir(parents=True)
